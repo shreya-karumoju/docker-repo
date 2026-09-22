@@ -1,5 +1,5 @@
-FROM nginx
+FROM ngnix
 MAINTAINER shreya
 LABEL This is used for flight booking
 EXPOSE 80
-COPY flight-booking.html /usr/share/ngnix/html/
+COPY index.html /usr/share/ngnix/html/
